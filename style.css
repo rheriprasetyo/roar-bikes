@@ -13,6 +13,8 @@ header{
 main{
     background-color: rgb(49, 139, 41);
     min-height: 300px;
+    display: flex;
+    
 }
 .cards{
     background-color: rgb(47, 198, 22);
@@ -34,4 +36,14 @@ main{
     background-color: rgb(125, 22, 70);
     min-height: 300px;
     width: 30%;
+}
+.herobox1{
+    
+    background-color: cornflowerblue;
+    flex: 2;
+}
+.herobox2{
+    
+    background-color: mintcream;
+    flex: 1;
 }
