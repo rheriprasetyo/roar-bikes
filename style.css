@@ -18,19 +18,20 @@ main{
     background-color: rgb(47, 198, 22);
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
 }
 .card1{
     background-color: rgb(227, 58, 137);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 .card2{
     background-color: rgb(228, 124, 173);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 .card3{
     background-color: rgb(125, 22, 70);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
