@@ -1,6 +1,6 @@
 .container{
     width: 1024px;
-    background-color: rgb(18, 60, 12);
+    
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -11,9 +11,10 @@ header{
     min-height: 100px;
 }
 main{
-    background-color: rgb(49, 139, 41);
+    
     min-height: 300px;
     display: flex;
+    align-items: center;
     
 }
 .cards{
@@ -38,12 +39,8 @@ main{
     width: 30%;
 }
 .herobox1{
-    
-    background-color: cornflowerblue;
     flex: 2;
 }
 .herobox2{
-    
-    background-color: mintcream;
     flex: 1;
 }
