@@ -32,6 +32,7 @@ main{
 .cards{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .card1{
     background-image: url(images/image-background-card1.jpg);
@@ -66,11 +67,27 @@ h1{
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
 }
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
 p{
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }
 
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    margin: 10px 30px 20px 30px ;
+}
 
 footer{
     margin-top: 150px;
