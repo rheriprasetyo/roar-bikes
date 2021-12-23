@@ -112,7 +112,11 @@ p{
     color: #FA4083;
     font-family: 'Playfair Display', serif;
     padding: 11px 25px;
-   
+    
+}
+a.mybutton{
+    display: inline-block;
+    margin-top: 20px;
 }
 footer{
     margin-top: 150px;
