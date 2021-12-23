@@ -88,12 +88,15 @@ p{
     line-height: 1.25rem;
     margin: 10px 30px 20px 30px ;
 }
-
+.cards i{
+    font-size: 100px;
+    padding-top: 30px;
+}
+.cards a{
+    color: white;
+    text-decoration: none;
+}
 footer{
     margin-top: 150px;
 
-}
-i{
-    font-size: 100px;
-    color: white;
 }
