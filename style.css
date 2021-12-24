@@ -149,6 +149,16 @@ nav a.mybutton{
     box-sizing: border-box;
     margin-top: 50px;
 }
+/*
+.tbox :last-child{
+    font-size: .8rem;
+}
+*/
+.tbox p:last-of-type{
+    font-size: 0.8rem;
+    padding-left: 30px;
+
+}
 footer{
     margin-top: 150px;
     
