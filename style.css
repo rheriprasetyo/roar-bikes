@@ -1,8 +1,8 @@
 html{
-    height: 100%;
+    background-image: linear-gradient(#FC5E55, #FA4083);
 }
 body{
-    background-image: linear-gradient(#FC5E55, #FA4083);
+   
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -111,7 +111,10 @@ p{
     color: white;
     text-decoration: none;
 }
-
+.mybutton:hover{
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
 .mybutton{
     background-color: white;
     color: #FA4083;
@@ -131,6 +134,20 @@ nav a.mybutton{
     border: 1px solid white;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    /* pengganti margin pada flex */
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 footer{
     margin-top: 150px;
