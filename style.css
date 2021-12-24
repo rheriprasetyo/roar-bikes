@@ -123,6 +123,14 @@ a.mybutton{
     display: inline-block;
     margin-top: 20px;
 }
+nav a.mybutton{
+    margin-left: 30px;
+}
+.navbutton{
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+}
 footer{
     margin-top: 150px;
     
