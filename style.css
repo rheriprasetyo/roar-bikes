@@ -134,6 +134,8 @@ nav a.mybutton{
     border: 1px solid white;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
 }
 .testimonials{
     display: flex;
@@ -158,6 +160,24 @@ nav a.mybutton{
     font-size: 0.8rem;
     padding-left: 30px;
 
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+.navbutton:hover .dropdown{
+    display: block;
+
+}
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+.dropdown .navbutton a{
+    color: #FA4083;
 }
 footer{
     margin-top: 150px;
