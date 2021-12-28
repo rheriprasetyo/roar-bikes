@@ -185,6 +185,10 @@ nav a.mybutton{
 .dropdown .navbutton a{
     color: #FA4083;
 }
+.inputwrapper{
+    margin-bottom: 20px;
+}
+
 footer{
     margin-top: 150px;
     
