@@ -60,13 +60,14 @@
             </p>
 
             <form action="mail.php" method="post">
+               
                 <div class="inputwrapper">
-                    <label for="name">First Name</label>
+                    <label for="name" class="newline">First Name</label>
                     <input type="text" name="namanya" id="name" placeholder="first name">
                 </div>
 
                 <div class="inputwrapper">
-                    <label for="email">Email</label>
+                    <label for="email" class="newline">Email</label>
                     <input type="email" name="email" id="email" placeholder="dan@sample.com">
                 </div>
 
@@ -82,13 +83,24 @@
                 <div class="inputwrapper">
                     <p>How would you like to be contacted?</p>
                     <input type="radio" name="contact-pref" id="phone" value="phone">
-                    <label for="phone">Phone</label>
+                    <label for="phone" class="margin-right-a">Phone</label>
 
                     <input type="radio" name="contact-pref" id="email2" value="email">
                     <label for="email2">Email</label>
                 </div>
 
-                <input type="submit" value="Fire Away" name="pencet">
+                <div class="inputwrapper">
+                    <select name="country" id="country">
+                        
+                        <option value="Not-Choosen">Choose Country</option>
+                        <option value="Limerick">Limerick</option>
+                        <option value="Galway">Galway</option>
+                        <option value="Dublin">Dublin</option>
+
+                    </select>
+                </div>
+
+                <input type="submit" value="Fire Away" name="pencet" class="mybutton">
             </form>
 
         </div>
